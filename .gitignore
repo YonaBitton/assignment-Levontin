@@ -1,0 +1,92 @@
+# -------------------------
+# Python & Poetry
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.db
+*.sqlite
+*.sqlite3
+
+# Environnements virtuels 
+.env/
+.venv/
+venv/
+env/
+
+# Poetry virtualenvs 
+.poetry/
+
+# Fichiers temporaires Python
+*.log
+*.tmp
+*.bak
+*.swp
+
+# -------------------------
+# VS Code / Cursor
+# -------------------------
+.vscode/
+cursor.code-workspace
+
+# -------------------------
+# Jupyter Notebooks
+# -------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Sorties générées automatiquement
+*.nbconvert.ipynb
+
+# -------------------------
+# Data Science
+# -------------------------
+
+# Dossier data 
+data/*
+
+# garder la structure
+!data/.gitkeep
+
+# Ignorer tout dossier de cache
+cache/
+logs/
+outputs/
+models/
+figures/
+
+# Formats de données lourds
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.hdf5
+*.h5
+*.zip
+*.gz
+*.tar
+*.jsonl
+
+# Images & médias
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp4
+*.mp3
+
+# -------------------------
+# OS-specific
+# -------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
