@@ -25,6 +25,10 @@ loguru = "^0.7"
 notebook = "^7.5.0"
 jupyterlab = "^4.5.0"
 seaborn = ">=0.13"
+openai = "^2.8.1"
+python-dotenv = "^1.2.1"
+panel = "^1.8.3"
+jupyter-bokeh = "^4.0.5"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^4.2.0"
