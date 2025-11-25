@@ -1,2 +1,3 @@
-def hello_world():
-    print("Hello world from utils!")
+def hello_world() -> str:
+    """Return a friendly greeting message."""
+    return "Hello, world!"
