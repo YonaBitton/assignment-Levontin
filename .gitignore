@@ -12,12 +12,10 @@ __pycache__/
 *.sqlite3
 
 # Environnements virtuels
-.env/
+.env
 .venv/
 venv/
 env/
-
-# Poetry virtualenvs
 .poetry/
 
 # Fichiers temporaires Python
@@ -37,56 +35,48 @@ cursor.code-workspace
 # -------------------------
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
-
-# Sorties générées automatiquement
 *.nbconvert.ipynb
 
 # -------------------------
-# Data Science
+# Data Science : données d'entrée
 # -------------------------
 
-# Dossier data
+# Ignorer toutes les data sources (TXT + CSV d’origine)
 data/*
+!data/.gitkeep     # pour garder la structure du dossier
 
-# garder la structure
-!data/.gitkeep
+# -------------------------
+# Output (fichiers produits)
+# -------------------------
+# ❗ IMPORTANT :
+# Nous gardons ENTIEREMENT output_data/
+# car les livrables demandent de fournir les fichiers .csv et .json générés.
+# Donc : NE PAS l'ignorer.
 
-# Ignorer tout dossier de cache
+# output_data/  <-- ON NE MET PAS CETTE LIGNE
+
+# -------------------------
+# Dossiers internes inutiles
+# -------------------------
 cache/
 logs/
 outputs/
 models/
 figures/
 
-# Formats de données lourds
-*.csv
-*.tsv
-*.xlsx
-*.xls
-*.parquet
-*.feather
-*.hdf5
-*.h5
+# Formats vraiment lourds
 *.zip
-*.gz
 *.tar
-*.jsonl
+*.gz
 
-# Images & médias
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.svg
+# -------------------------
+# Images & médias (facultatif)
+# -------------------------
 *.mp4
 *.mp3
 
 # -------------------------
-# OS-specific
+# OS Specific
 # -------------------------
-
-# macOS
 .DS_Store
-
-# Windows
 Thumbs.db
