@@ -11,13 +11,13 @@ __pycache__/
 *.sqlite
 *.sqlite3
 
-# Environnements virtuels 
+# Environnements virtuels
 .env/
 .venv/
 venv/
 env/
 
-# Poetry virtualenvs 
+# Poetry virtualenvs
 .poetry/
 
 # Fichiers temporaires Python
@@ -45,7 +45,7 @@ cursor.code-workspace
 # Data Science
 # -------------------------
 
-# Dossier data 
+# Dossier data
 data/*
 
 # garder la structure
