@@ -29,6 +29,7 @@ openai = "^2.8.1"
 python-dotenv = "^1.2.1"
 panel = "^1.8.3"
 jupyter-bokeh = "^4.0.5"
+pyyaml = "^6.0"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^4.2.0"
