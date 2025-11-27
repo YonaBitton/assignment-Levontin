@@ -41,6 +41,7 @@ repos:
         entry: poetry run nbstripout
         types: [file]
         files: (.ipynb)$
+        exclude: ^notebooks/clean_assignment\.ipynb$
         language: system
         stages: [commit, push]
 
